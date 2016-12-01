@@ -1,0 +1,296 @@
+html, body 
+{
+  font-family: 'Lato', sans-serif; color:#ffffff;
+  display: inline-block;
+  background-color: #f0f8ff;
+}
+
+
+@media only screen and (min-width: 360px) and (min-height: 640px) 
+{
+  body
+  {
+    font-family: 'Lato', sans-serif; color:#ffffff;
+  }
+
+  .header
+  {
+    border-top: 8px solid #d8bfd8;
+    border-bottom: 8px solid #d8bfd8;
+    background: url("../images/background.png") no-repeat bottom center;
+  }
+  
+  ul 
+  {  
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color: #f0f8ff;
+    font-size:30px;
+  }
+
+  li 
+  {
+      float: none;
+  }
+
+  li a 
+  {
+      float:none;
+      list-style-type: none;
+      color: #9370db;
+      text-decoration: none;
+  }
+
+  h1
+{
+  padding-top:60px;
+  letter-spacing: 30px;
+  font-family: 'Lato', sans-serif;
+  font-size: 75px;
+  font-weight: 200;
+  text-align: center;
+}
+
+p
+{ 
+  padding-top: 10px;
+  margin-top:-70px;
+  font-family: 'Lato', sans-serif;
+  font-size: 42px;
+  font-weight: 200;
+  text-align: center;
+}
+
+  .pic1
+  {
+    border-color: #d8bfd8;
+    border-radius: 50%;
+  }
+}
+
+@media only screen and (max-width: 1199px) and (max-height: 989px)
+{
+  
+  
+}
+
+@media only screen and (min-width: 1200px) and (min-height: 800px)
+{
+   ul 
+   {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #f0f8ff;
+      position:absolute;
+      top:100;
+      left: 250;
+      font-size:30px;
+  }
+
+  li 
+  {
+      float: left;
+  }
+
+  li a 
+  {
+      display: block;
+      color: #9370db;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  .header
+  {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 180px;
+    margin-bottom: 0px;
+    border-top: 8px solid #d8bfd8;
+    border-bottom: 8px solid #d8bfd8;
+    width: 2000px;
+    height: 450px;
+    z-index: 2;
+
+    background: url("../images/background.png") no-repeat bottom center;
+    background-size: cover;
+    position:absolute;
+    /*filter: blur(3px);*/
+  }
+
+  .pictures
+  {
+
+  }
+  figure
+  {
+    display: inline-flex;
+    flex-wrap: initial;
+    position: fixed;
+    bottom:220;
+    left:240;
+    z-index: 4;
+  }
+
+  figure.background
+  {
+    margin: 20px;
+    position:relative;
+    z-index: 5;
+  }
+  figure.background .pic1
+  {
+    border: 3px solid #ffffff;
+    margin-right: -3px;
+    margin-top: 0px;
+    position:relative;
+    float:bottom;
+    width:275px;
+    height:275px;
+    border-radius: 50%;
+
+  }
+
+  h1
+  {
+    padding-top:50px;
+    letter-spacing: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 90px;
+    font-weight: 200;
+  }
+
+  p
+  { 
+    margin-top:-60px;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+  }
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1488px)
+{
+  ul 
+   {  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f0f8ff;
+    position:absolute;
+    top:100;
+    left: 250;
+    font-size:30px;
+    }
+
+  li 
+  {
+      float: left;
+  }
+
+  li a 
+  {
+      display: block;
+      color: #9370db;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+ .header
+  {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 220px;
+    margin-bottom: 0px;
+    border-top: 8px solid #d8bfd8;
+    border-bottom: 8px solid #d8bfd8;
+    width: 2000px;
+    height: 670px;
+    z-index: 2;
+
+    background: url("../images/background.png") no-repeat bottom center;
+    background-size: cover;
+    position:absolute;
+    /*filter: blur(3px);*/
+  }
+  figure
+  {
+    display: inline-flex;
+    flex-wrap: initial;
+    position: fixed;
+    bottom:270;
+    left:240;
+    z-index: 4;
+   
+  }
+
+  figure.background
+  {
+    margin: 25px;
+    position:relative;
+    z-index: 5;
+  }
+
+  figure.background.pic1
+  {
+    border: 3px solid #ffffff;
+    margin-right: -3px;
+    margin-top: 0px;
+    position:relative;
+    float:bottom;
+    width:500px;
+    height:500px;
+    border-radius: 50%;
+
+  }
+
+  h1
+  {
+    padding-top:75px;
+    letter-spacing: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 120px;
+    font-weight: 200;
+  }
+
+  p
+  { 
+    margin-top:-70px;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-weight: 200;
+  }
+}
+
+
+
+
+a:link
+{
+  color: #9370db;
+  background-color: transparent;
+}
+
+a:visited
+{
+  color: #9370db;
+  background-color:transparent;
+}
+
+a:hover
+{
+  color: purple;
+  background-color: transparent;
+}
+
+
+
+
+
+
